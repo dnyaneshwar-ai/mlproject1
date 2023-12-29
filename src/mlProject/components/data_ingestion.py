@@ -29,7 +29,7 @@ class DataIngestion:
     def initiate_data_ingestion(self):
             logging.info('enter into initiate data ingestion')
             try:
-                df = pd.read_csv('notebook\data\data.csv')
+                df = pd.read_csv('notebook\data\winequality-red.csv')
                 logging.info('read dataset as dataframe completed')
                 
                 # save all data in data.csv file in artifact folder
