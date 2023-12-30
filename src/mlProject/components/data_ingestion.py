@@ -54,13 +54,16 @@ class DataIngestion:
                 raise CustomException(e, sys)
 
 
-# to check script, it running or not
-if __name__=='__main__':
-     # create object of dtaingestion class
-     obj = DataIngestion()
+# # to check script, it running or not, run into main.py file
+            
+
+
+# if __name__=='__main__':
+#      # create object of dtaingestion class
+#      obj = DataIngestion()
      
-     # call initiate_data_ingestion function, and save results in variable train_data, test_data.
-     train_data, test_data = obj.initiate_data_ingestion()
+#      # call initiate_data_ingestion function, and save results in variable train_data, test_data.
+#      train_data, test_data = obj.initiate_data_ingestion()
 
     # # Data Transformation
     # # Create an instance of the DataTransformation class
